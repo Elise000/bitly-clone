@@ -3,3 +3,8 @@ get '/' do
   erb :"static/index"
 
 end
+
+
+get '/help' do
+  erb :'static/help'
+end

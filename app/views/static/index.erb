@@ -1,14 +1,19 @@
+<img id = "img01" src="img/see-ly-2.jpg" width="234" height="142">
+<span id = "intro">
+  See-ly converts your URLs into easy to type short URLs
+</span>
 <h1 style="text-align:centre">URLs Made Short</h1>
-
+<p id="loading"></p>
 <div class="banner b01 center">
-  <p>Enter your URL here to get started!</p>
+  <p id = "p01">Enter your URL here to get started!</p>
   <form action="/urls" method="post">
   <!-- <input type ="text" name="url[long]"> -->
   <input id = "input" type ="text" name="long_url" placeholder="Paste your link here" size="50">
   <input id = "submitbutton" type ="submit" value="Submit">
+
 </form>
 </div>
-
+<div id="shorturl"></div>
 <div class="error redfont center">
   <% if @failed %>
   Error:
@@ -16,6 +21,7 @@
   <% end %>
 </div>
 
+<div class="dropdown">Click to Drop Down</div>
 <div>
 <br>
 <table id="datatable">
@@ -35,5 +41,19 @@
     </tr> -->
   <% end %>
 </table>
+</div>
+
+<a href="/all-links" id="allLink"><button>All link</button></a>
+
+<div id="links">
+  <table>
+    <thead>
+      <th>Id</th>
+      <th>Short Url</th>
+      <th>Long Url</th>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
 </div>
 

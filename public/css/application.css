@@ -1,11 +1,17 @@
 h1 {
-    padding:50px;
-    margin:20px;
-    margin-bottom: 5px;
+    padding:30px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: orange;
     font-size: 5em;
+}
+
+#intro {
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: green;
+    font-size: 10pt;
 }
 
 #datatable {
@@ -75,5 +81,31 @@ td:last-child{
     font-size: 11pt;
     color:gray;
 }
+
+.dropdown {
+    cursor:pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    box-shadow: 0 0 8px #FFD700;
+    display: block;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

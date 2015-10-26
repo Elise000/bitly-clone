@@ -1,5 +1,3 @@
-require 'byebug'
-
 class Url < ActiveRecord::Base
   before_create :shorten
 
