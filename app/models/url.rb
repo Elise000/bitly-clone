@@ -1,5 +1,5 @@
 class Url < ActiveRecord::Base
-  before_create :shorten
+  # before_create :shorten
 
   validates :long_url, presence: true, :format => {:with => URI.regexp}
 
